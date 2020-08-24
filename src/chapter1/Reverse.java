@@ -29,7 +29,10 @@ public class Reverse {
 		stack.push(1);
 		stack.push(2);
 		stack.push(3);
-		Reverse.reverse(stack);
+		stack.push(4);
+		stack.push(5);
+		stack.push(6);
+//		Reverse.reverse(stack);
 //		System.out.println(stack.size()+"--------");
 		while(!stack.isEmpty()){
 			System.out.println(stack.pop());
